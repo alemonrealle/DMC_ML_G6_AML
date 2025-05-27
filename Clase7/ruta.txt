@@ -1,0 +1,3 @@
+/airflow/dags/pycaret_automl_mlflow_dag.py
+/data/credit_data.csv
+/scripts/pycaret_automl_mlflow.py
