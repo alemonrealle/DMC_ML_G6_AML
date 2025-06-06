@@ -1,0 +1,476 @@
+2025-06-02 21:14:16,771:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:14:16,772:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:14:16,772:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:14:16,772:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:14:40,775:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:14:40,778:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:14:40,778:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:14:40,778:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:14:42,614:INFO:Initializing load_model()
+2025-06-02 21:14:42,614:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:15:42,857:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:15:42,858:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:15:42,858:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:15:42,858:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:16:16,401:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:16:16,401:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:16:16,401:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:16:16,401:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:16:18,232:INFO:PyCaret ClusteringExperiment
+2025-06-02 21:16:18,232:INFO:Logging name: cluster-default-name
+2025-06-02 21:16:18,232:INFO:ML Usecase: MLUsecase.CLUSTERING
+2025-06-02 21:16:18,232:INFO:version 3.2.0
+2025-06-02 21:16:18,232:INFO:Initializing setup()
+2025-06-02 21:16:18,232:INFO:self.USI: 37f0
+2025-06-02 21:16:18,232:INFO:self._variable_keys: {'gpu_n_jobs_param', 'n_jobs_param', 'memory', 'data', 'USI', 'exp_id', '_available_plots', 'log_plots_param', 'pipeline', 'X', 'idx', '_ml_usecase', 'exp_name_log', 'seed', 'html_param', 'logging_param', 'gpu_param'}
+2025-06-02 21:16:18,232:INFO:Checking environment
+2025-06-02 21:16:18,232:INFO:python_version: 3.11.9
+2025-06-02 21:16:18,232:INFO:python_build: ('tags/v3.11.9:de54cf5', 'Apr  2 2024 10:12:12')
+2025-06-02 21:16:18,232:INFO:machine: AMD64
+2025-06-02 21:16:18,259:INFO:platform: Windows-10-10.0.26100-SP0
+2025-06-02 21:16:18,267:INFO:Memory: svmem(total=33554628608, available=18635161600, percent=44.5, used=14919467008, free=18635161600)
+2025-06-02 21:16:18,267:INFO:Physical Core: 6
+2025-06-02 21:16:18,267:INFO:Logical Core: 12
+2025-06-02 21:16:18,267:INFO:Checking libraries
+2025-06-02 21:16:18,267:INFO:System:
+2025-06-02 21:16:18,267:INFO:    python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2025-06-02 21:16:18,267:INFO:executable: C:\Users\amonreal\Documents\amlbash\.venv\Scripts\python.exe
+2025-06-02 21:16:18,267:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-06-02 21:16:18,267:INFO:PyCaret required dependencies:
+2025-06-02 21:16:18,333:INFO:                 pip: 24.0
+2025-06-02 21:16:18,333:INFO:          setuptools: 65.5.0
+2025-06-02 21:16:18,333:INFO:             pycaret: 3.2.0
+2025-06-02 21:16:18,333:INFO:             IPython: 9.2.0
+2025-06-02 21:16:18,333:INFO:          ipywidgets: 8.1.7
+2025-06-02 21:16:18,333:INFO:                tqdm: 4.67.1
+2025-06-02 21:16:18,333:INFO:               numpy: 1.25.2
+2025-06-02 21:16:18,333:INFO:              pandas: 1.5.3
+2025-06-02 21:16:18,333:INFO:              jinja2: 3.1.6
+2025-06-02 21:16:18,333:INFO:               scipy: 1.10.1
+2025-06-02 21:16:18,333:INFO:              joblib: 1.3.2
+2025-06-02 21:16:18,333:INFO:             sklearn: 1.2.2
+2025-06-02 21:16:18,333:INFO:                pyod: 2.0.5
+2025-06-02 21:16:18,333:INFO:            imblearn: 0.12.4
+2025-06-02 21:16:18,334:INFO:   category_encoders: 2.7.0
+2025-06-02 21:16:18,334:INFO:            lightgbm: 4.6.0
+2025-06-02 21:16:18,334:INFO:               numba: 0.61.2
+2025-06-02 21:16:18,334:INFO:            requests: 2.32.3
+2025-06-02 21:16:18,334:INFO:          matplotlib: 3.6.0
+2025-06-02 21:16:18,334:INFO:          scikitplot: 0.3.7
+2025-06-02 21:16:18,334:INFO:         yellowbrick: 1.5
+2025-06-02 21:16:18,334:INFO:              plotly: 5.24.1
+2025-06-02 21:16:18,334:INFO:    plotly-resampler: Not installed
+2025-06-02 21:16:18,334:INFO:             kaleido: 0.2.1
+2025-06-02 21:16:18,334:INFO:           schemdraw: 0.15
+2025-06-02 21:16:18,334:INFO:         statsmodels: 0.14.4
+2025-06-02 21:16:18,334:INFO:              sktime: 0.21.1
+2025-06-02 21:16:18,334:INFO:               tbats: 1.1.3
+2025-06-02 21:16:18,334:INFO:            pmdarima: 2.0.4
+2025-06-02 21:16:18,334:INFO:              psutil: 7.0.0
+2025-06-02 21:16:18,334:INFO:          markupsafe: 3.0.2
+2025-06-02 21:16:18,334:INFO:             pickle5: Not installed
+2025-06-02 21:16:18,334:INFO:         cloudpickle: 2.2.1
+2025-06-02 21:16:18,334:INFO:         deprecation: 2.1.0
+2025-06-02 21:16:18,334:INFO:              xxhash: 3.5.0
+2025-06-02 21:16:18,334:INFO:           wurlitzer: Not installed
+2025-06-02 21:16:18,334:INFO:PyCaret optional dependencies:
+2025-06-02 21:16:18,932:INFO:                shap: Not installed
+2025-06-02 21:16:18,932:INFO:           interpret: Not installed
+2025-06-02 21:16:18,932:INFO:                umap: Not installed
+2025-06-02 21:16:18,932:INFO:     ydata_profiling: Not installed
+2025-06-02 21:16:18,932:INFO:  explainerdashboard: Not installed
+2025-06-02 21:16:18,932:INFO:             autoviz: Not installed
+2025-06-02 21:16:18,932:INFO:           fairlearn: Not installed
+2025-06-02 21:16:18,932:INFO:          deepchecks: Not installed
+2025-06-02 21:16:18,932:INFO:             xgboost: Not installed
+2025-06-02 21:16:18,932:INFO:            catboost: Not installed
+2025-06-02 21:16:18,932:INFO:              kmodes: Not installed
+2025-06-02 21:16:18,932:INFO:             mlxtend: Not installed
+2025-06-02 21:16:18,932:INFO:       statsforecast: Not installed
+2025-06-02 21:16:18,932:INFO:        tune_sklearn: Not installed
+2025-06-02 21:16:18,932:INFO:                 ray: Not installed
+2025-06-02 21:16:18,932:INFO:            hyperopt: Not installed
+2025-06-02 21:16:18,932:INFO:              optuna: Not installed
+2025-06-02 21:16:18,932:INFO:               skopt: Not installed
+2025-06-02 21:16:18,932:INFO:              mlflow: 2.22.0
+2025-06-02 21:16:18,932:INFO:              gradio: Not installed
+2025-06-02 21:16:18,932:INFO:             fastapi: 0.115.12
+2025-06-02 21:16:18,932:INFO:             uvicorn: 0.34.2
+2025-06-02 21:16:18,932:INFO:              m2cgen: Not installed
+2025-06-02 21:16:18,932:INFO:           evidently: Not installed
+2025-06-02 21:16:18,932:INFO:               fugue: Not installed
+2025-06-02 21:16:18,932:INFO:           streamlit: Not installed
+2025-06-02 21:16:18,932:INFO:             prophet: Not installed
+2025-06-02 21:16:18,932:INFO:None
+2025-06-02 21:16:18,934:INFO:Set up data.
+2025-06-02 21:16:18,937:INFO:Set up index.
+2025-06-02 21:16:18,938:INFO:Assigning column types.
+2025-06-02 21:16:18,940:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2025-06-02 21:16:18,940:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2025-06-02 21:16:18,940:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:16:18,940:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2025-06-02 21:16:18,940:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:16:18,940:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2025-06-02 21:16:18,940:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:16:18,940:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:16:18,942:INFO:Preparing preprocessing pipeline...
+2025-06-02 21:16:18,942:INFO:Set up simple imputation.
+2025-06-02 21:16:18,942:INFO:Set up feature normalization.
+2025-06-02 21:16:18,962:INFO:Finished creating preprocessing pipeline.
+2025-06-02 21:16:18,966:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\amonreal\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingresos_mensuales',
+                                             'gastos_mensuales', 'visitas_app',
+                                             'usa_web', 'numero_tarjetas',
+                                             'score_crediticio',
+                                             'reclamos_anuales',
+                                             'actividad_mixta'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))])
+2025-06-02 21:16:18,966:INFO:Creating final display dataframe.
+2025-06-02 21:16:18,985:INFO:Setup _display_container:                Description                 Value
+0               Session id                   123
+1      Original data shape             (2000, 9)
+2   Transformed data shape             (2000, 9)
+3         Numeric features                     9
+4               Preprocess                  True
+5          Imputation type                simple
+6       Numeric imputation                  mean
+7   Categorical imputation                  mode
+8                Normalize                  True
+9         Normalize method                zscore
+10                CPU Jobs                    -1
+11                 Use GPU                 False
+12          Log Experiment                 False
+13         Experiment Name  cluster-default-name
+14                     USI                  37f0
+2025-06-02 21:16:18,991:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:16:18,991:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:16:18,992:INFO:setup() successfully completed in 0.76s...............
+2025-06-02 21:16:18,992:INFO:Initializing create_model()
+2025-06-02 21:16:18,992:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000011EDD9A52D0>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2025-06-02 21:16:18,992:INFO:Checking exceptions
+2025-06-02 21:16:19,010:INFO:Importing untrained model
+2025-06-02 21:16:19,010:INFO:K-Means Clustering Imported successfully
+2025-06-02 21:16:19,011:INFO:Fitting Model
+2025-06-02 21:16:19,027:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2025-06-02 21:16:19,407:INFO:KMeans(n_clusters=4, random_state=123)
+2025-06-02 21:16:19,407:INFO:create_models() successfully completed......................................
+2025-06-02 21:16:19,408:INFO:Uploading results into container
+2025-06-02 21:16:19,412:INFO:Uploading model into container now
+2025-06-02 21:16:19,420:INFO:_master_model_container: 1
+2025-06-02 21:16:19,420:INFO:_display_container: 2
+2025-06-02 21:16:19,420:INFO:KMeans(n_clusters=4, random_state=123)
+2025-06-02 21:16:19,421:INFO:create_model() successfully completed......................................
+2025-06-02 21:16:19,563:INFO:Initializing assign_model()
+2025-06-02 21:16:19,563:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000011EDD9A52D0>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2025-06-02 21:16:19,563:INFO:Checking exceptions
+2025-06-02 21:16:19,563:INFO:Determining Trained Model
+2025-06-02 21:16:19,563:INFO:Trained Model : K-Means Clustering
+2025-06-02 21:16:19,563:INFO:Copying data
+2025-06-02 21:16:19,565:INFO:(2000, 10)
+2025-06-02 21:16:19,565:INFO:assign_model() successfully completed......................................
+2025-06-02 21:16:19,568:INFO:Initializing save_model()
+2025-06-02 21:16:19,569:INFO:save_model(model=KMeans(n_clusters=4, random_state=123), model_name=cluster_model_clientes, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\amonreal\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingresos_mensuales',
+                                             'gastos_mensuales', 'visitas_app',
+                                             'usa_web', 'numero_tarjetas',
+                                             'score_crediticio',
+                                             'reclamos_anuales',
+                                             'actividad_mixta'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))]), verbose=True, use_case=MLUsecase.CLUSTERING, kwargs={})
+2025-06-02 21:16:19,569:INFO:Adding model into prep_pipe
+2025-06-02 21:16:19,572:INFO:cluster_model_clientes.pkl saved in current working directory
+2025-06-02 21:16:19,576:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingresos_mensuales',
+                                             'gastos_mensuales', 'visitas_app',
+                                             'usa_web', 'numero_tarjetas',
+                                             'score_crediticio',
+                                             'reclamos_anuales',
+                                             'actividad_mixta'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KMeans(n_clusters=4, random_state=123))])
+2025-06-02 21:16:19,576:INFO:save_model() successfully completed......................................
+2025-06-02 21:17:01,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:17:01,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:17:01,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:17:01,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:17:03,134:INFO:Initializing load_model()
+2025-06-02 21:17:03,135:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:28:11,103:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:28:11,103:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:28:11,103:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:28:11,104:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:28:12,569:INFO:Initializing load_model()
+2025-06-02 21:28:12,570:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:29:16,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:29:16,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:29:16,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:29:16,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:29:17,868:INFO:Initializing load_model()
+2025-06-02 21:29:17,868:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:30:10,495:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:30:10,496:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:30:10,496:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:30:10,496:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:30:11,896:INFO:Initializing load_model()
+2025-06-02 21:30:11,896:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:35:05,728:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:35:05,729:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:35:05,729:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:35:05,729:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:35:07,474:INFO:Initializing load_model()
+2025-06-02 21:35:07,474:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:35:20,051:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:35:20,051:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:35:20,051:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:35:20,051:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:35:21,860:INFO:Initializing load_model()
+2025-06-02 21:35:21,861:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:39:19,493:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:39:19,494:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:39:19,494:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:39:19,494:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:39:20,886:INFO:Initializing load_model()
+2025-06-02 21:39:20,887:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:39:54,965:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:39:54,965:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:39:54,965:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:39:54,965:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 21:39:56,535:INFO:Initializing load_model()
+2025-06-02 21:39:56,535:INFO:load_model(model_name=cluster_model_clientes, platform=None, authentication=None, verbose=True)
+2025-06-02 21:41:18,037:INFO:PyCaret ClusteringExperiment
+2025-06-02 21:41:18,037:INFO:Logging name: cluster-default-name
+2025-06-02 21:41:18,037:INFO:ML Usecase: MLUsecase.CLUSTERING
+2025-06-02 21:41:18,037:INFO:version 3.2.0
+2025-06-02 21:41:18,037:INFO:Initializing setup()
+2025-06-02 21:41:18,037:INFO:self.USI: 0f52
+2025-06-02 21:41:18,037:INFO:self._variable_keys: {'USI', 'logging_param', 'html_param', 'exp_name_log', 'memory', 'n_jobs_param', 'pipeline', 'log_plots_param', 'gpu_param', 'data', 'seed', 'idx', 'gpu_n_jobs_param', '_ml_usecase', '_available_plots', 'exp_id', 'X'}
+2025-06-02 21:41:18,037:INFO:Checking environment
+2025-06-02 21:41:18,037:INFO:python_version: 3.11.9
+2025-06-02 21:41:18,037:INFO:python_build: ('tags/v3.11.9:de54cf5', 'Apr  2 2024 10:12:12')
+2025-06-02 21:41:18,037:INFO:machine: AMD64
+2025-06-02 21:41:18,059:INFO:platform: Windows-10-10.0.26100-SP0
+2025-06-02 21:41:18,078:INFO:Memory: svmem(total=33554628608, available=18316906496, percent=45.4, used=15237722112, free=18316906496)
+2025-06-02 21:41:18,078:INFO:Physical Core: 6
+2025-06-02 21:41:18,078:INFO:Logical Core: 12
+2025-06-02 21:41:18,078:INFO:Checking libraries
+2025-06-02 21:41:18,078:INFO:System:
+2025-06-02 21:41:18,078:INFO:    python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2025-06-02 21:41:18,078:INFO:executable: C:\Users\amonreal\Documents\amlbash\.venv\Scripts\python.exe
+2025-06-02 21:41:18,079:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-06-02 21:41:18,079:INFO:PyCaret required dependencies:
+2025-06-02 21:41:18,079:INFO:                 pip: 24.0
+2025-06-02 21:41:18,079:INFO:          setuptools: 65.5.0
+2025-06-02 21:41:18,079:INFO:             pycaret: 3.2.0
+2025-06-02 21:41:18,079:INFO:             IPython: 9.2.0
+2025-06-02 21:41:18,079:INFO:          ipywidgets: 8.1.7
+2025-06-02 21:41:18,079:INFO:                tqdm: 4.67.1
+2025-06-02 21:41:18,079:INFO:               numpy: 1.25.2
+2025-06-02 21:41:18,079:INFO:              pandas: 1.5.3
+2025-06-02 21:41:18,079:INFO:              jinja2: 3.1.6
+2025-06-02 21:41:18,079:INFO:               scipy: 1.10.1
+2025-06-02 21:41:18,079:INFO:              joblib: 1.3.2
+2025-06-02 21:41:18,079:INFO:             sklearn: 1.2.2
+2025-06-02 21:41:18,079:INFO:                pyod: 2.0.5
+2025-06-02 21:41:18,079:INFO:            imblearn: 0.12.4
+2025-06-02 21:41:18,079:INFO:   category_encoders: 2.7.0
+2025-06-02 21:41:18,079:INFO:            lightgbm: 4.6.0
+2025-06-02 21:41:18,079:INFO:               numba: 0.61.2
+2025-06-02 21:41:18,079:INFO:            requests: 2.32.3
+2025-06-02 21:41:18,079:INFO:          matplotlib: 3.6.0
+2025-06-02 21:41:18,079:INFO:          scikitplot: 0.3.7
+2025-06-02 21:41:18,079:INFO:         yellowbrick: 1.5
+2025-06-02 21:41:18,079:INFO:              plotly: 5.24.1
+2025-06-02 21:41:18,079:INFO:    plotly-resampler: Not installed
+2025-06-02 21:41:18,079:INFO:             kaleido: 0.2.1
+2025-06-02 21:41:18,079:INFO:           schemdraw: 0.15
+2025-06-02 21:41:18,079:INFO:         statsmodels: 0.14.4
+2025-06-02 21:41:18,079:INFO:              sktime: 0.21.1
+2025-06-02 21:41:18,079:INFO:               tbats: 1.1.3
+2025-06-02 21:41:18,079:INFO:            pmdarima: 2.0.4
+2025-06-02 21:41:18,080:INFO:              psutil: 7.0.0
+2025-06-02 21:41:18,080:INFO:          markupsafe: 3.0.2
+2025-06-02 21:41:18,080:INFO:             pickle5: Not installed
+2025-06-02 21:41:18,080:INFO:         cloudpickle: 2.2.1
+2025-06-02 21:41:18,080:INFO:         deprecation: 2.1.0
+2025-06-02 21:41:18,080:INFO:              xxhash: 3.5.0
+2025-06-02 21:41:18,080:INFO:           wurlitzer: Not installed
+2025-06-02 21:41:18,080:INFO:PyCaret optional dependencies:
+2025-06-02 21:41:18,094:INFO:                shap: Not installed
+2025-06-02 21:41:18,094:INFO:           interpret: Not installed
+2025-06-02 21:41:18,094:INFO:                umap: Not installed
+2025-06-02 21:41:18,094:INFO:     ydata_profiling: Not installed
+2025-06-02 21:41:18,094:INFO:  explainerdashboard: Not installed
+2025-06-02 21:41:18,094:INFO:             autoviz: Not installed
+2025-06-02 21:41:18,095:INFO:           fairlearn: Not installed
+2025-06-02 21:41:18,095:INFO:          deepchecks: Not installed
+2025-06-02 21:41:18,095:INFO:             xgboost: Not installed
+2025-06-02 21:41:18,095:INFO:            catboost: Not installed
+2025-06-02 21:41:18,095:INFO:              kmodes: Not installed
+2025-06-02 21:41:18,095:INFO:             mlxtend: Not installed
+2025-06-02 21:41:18,095:INFO:       statsforecast: Not installed
+2025-06-02 21:41:18,095:INFO:        tune_sklearn: Not installed
+2025-06-02 21:41:18,095:INFO:                 ray: Not installed
+2025-06-02 21:41:18,095:INFO:            hyperopt: Not installed
+2025-06-02 21:41:18,095:INFO:              optuna: Not installed
+2025-06-02 21:41:18,095:INFO:               skopt: Not installed
+2025-06-02 21:41:18,095:INFO:              mlflow: 2.22.0
+2025-06-02 21:41:18,095:INFO:              gradio: Not installed
+2025-06-02 21:41:18,095:INFO:             fastapi: 0.115.12
+2025-06-02 21:41:18,095:INFO:             uvicorn: 0.34.2
+2025-06-02 21:41:18,095:INFO:              m2cgen: Not installed
+2025-06-02 21:41:18,095:INFO:           evidently: Not installed
+2025-06-02 21:41:18,095:INFO:               fugue: Not installed
+2025-06-02 21:41:18,095:INFO:           streamlit: Not installed
+2025-06-02 21:41:18,095:INFO:             prophet: Not installed
+2025-06-02 21:41:18,095:INFO:None
+2025-06-02 21:41:18,095:INFO:Set up data.
+2025-06-02 21:41:18,099:INFO:Set up index.
+2025-06-02 21:41:18,099:INFO:Assigning column types.
+2025-06-02 21:41:18,101:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2025-06-02 21:41:18,101:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2025-06-02 21:41:18,101:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:41:18,101:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2025-06-02 21:41:18,102:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:41:18,102:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2025-06-02 21:41:18,102:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:41:18,102:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:41:18,104:INFO:Preparing preprocessing pipeline...
+2025-06-02 21:41:18,104:INFO:Set up simple imputation.
+2025-06-02 21:41:18,120:INFO:Finished creating preprocessing pipeline.
+2025-06-02 21:41:18,124:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\amonreal\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingresos_mensuales',
+                                             'gastos_mensuales', 'visitas_app',
+                                             'usa_web', 'numero_tarjetas',
+                                             'score_crediticio',
+                                             'reclamos_anuales',
+                                             'actividad_mixta'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))])
+2025-06-02 21:41:18,124:INFO:Creating final display dataframe.
+2025-06-02 21:41:18,139:INFO:Setup _display_container:                Description                 Value
+0               Session id                   123
+1      Original data shape                (1, 9)
+2   Transformed data shape                (1, 9)
+3         Numeric features                     9
+4               Preprocess                  True
+5          Imputation type                simple
+6       Numeric imputation                  mean
+7   Categorical imputation                  mode
+8                 CPU Jobs                    -1
+9                  Use GPU                 False
+10          Log Experiment                 False
+11         Experiment Name  cluster-default-name
+12                     USI                  0f52
+2025-06-02 21:41:18,142:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:41:18,143:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 21:41:18,143:INFO:setup() successfully completed in 0.11s...............
+2025-06-02 21:41:18,148:INFO:Initializing predict_model()
+2025-06-02 21:41:18,149:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000025120B00610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingresos_mensuales',
+                                             'gastos_mensuales', 'visitas_app',
+                                             'usa_web', 'numero_tarjetas',
+                                             'score_crediticio',
+                                             'reclamos_anuales',
+                                             'actividad_mixta'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KMeans(n_clusters=4, random_state=123))]), ml_usecase=None)
+2025-06-02 21:41:18,149:INFO:Set up data.

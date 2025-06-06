@@ -1,0 +1,1898 @@
+2025-06-02 19:59:38,683:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 19:59:38,683:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 19:59:38,683:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 19:59:38,683:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 19:59:40,380:INFO:Initializing load_model()
+2025-06-02 19:59:40,380:INFO:load_model(model_name=modelo_bank_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-02 20:05:08,062:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:05:08,063:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:05:08,063:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:05:08,063:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:05:09,999:INFO:PyCaret ClassificationExperiment
+2025-06-02 20:05:10,000:INFO:Logging name: banking-autoML
+2025-06-02 20:05:10,000:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2025-06-02 20:05:10,000:INFO:version 3.2.0
+2025-06-02 20:05:10,000:INFO:Initializing setup()
+2025-06-02 20:05:10,001:INFO:self.USI: 1d97
+2025-06-02 20:05:10,001:INFO:self._variable_keys: {'_available_plots', 'seed', 'fold_generator', 'idx', 'X_train', 'y', 'target_param', 'gpu_param', 'X', 'fold_shuffle_param', 'X_test', 'logging_param', 'is_multiclass', 'exp_name_log', '_ml_usecase', 'n_jobs_param', 'memory', 'exp_id', 'pipeline', 'fix_imbalance', 'y_train', 'USI', 'fold_groups_param', 'html_param', 'gpu_n_jobs_param', 'data', 'y_test', 'log_plots_param'}
+2025-06-02 20:05:10,001:INFO:Checking environment
+2025-06-02 20:05:10,001:INFO:python_version: 3.11.9
+2025-06-02 20:05:10,001:INFO:python_build: ('tags/v3.11.9:de54cf5', 'Apr  2 2024 10:12:12')
+2025-06-02 20:05:10,001:INFO:machine: AMD64
+2025-06-02 20:05:10,030:INFO:platform: Windows-10-10.0.26100-SP0
+2025-06-02 20:05:10,041:INFO:Memory: svmem(total=33554628608, available=17688633344, percent=47.3, used=15865995264, free=17688633344)
+2025-06-02 20:05:10,041:INFO:Physical Core: 6
+2025-06-02 20:05:10,041:INFO:Logical Core: 12
+2025-06-02 20:05:10,042:INFO:Checking libraries
+2025-06-02 20:05:10,042:INFO:System:
+2025-06-02 20:05:10,042:INFO:    python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2025-06-02 20:05:10,042:INFO:executable: C:\Users\amonreal\Documents\amlbash\.venv\Scripts\python.exe
+2025-06-02 20:05:10,042:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-06-02 20:05:10,042:INFO:PyCaret required dependencies:
+2025-06-02 20:05:10,108:INFO:                 pip: 24.0
+2025-06-02 20:05:10,108:INFO:          setuptools: 65.5.0
+2025-06-02 20:05:10,108:INFO:             pycaret: 3.2.0
+2025-06-02 20:05:10,108:INFO:             IPython: 9.2.0
+2025-06-02 20:05:10,109:INFO:          ipywidgets: 8.1.7
+2025-06-02 20:05:10,109:INFO:                tqdm: 4.67.1
+2025-06-02 20:05:10,109:INFO:               numpy: 1.25.2
+2025-06-02 20:05:10,109:INFO:              pandas: 1.5.3
+2025-06-02 20:05:10,109:INFO:              jinja2: 3.1.6
+2025-06-02 20:05:10,109:INFO:               scipy: 1.10.1
+2025-06-02 20:05:10,109:INFO:              joblib: 1.3.2
+2025-06-02 20:05:10,109:INFO:             sklearn: 1.2.2
+2025-06-02 20:05:10,109:INFO:                pyod: 2.0.5
+2025-06-02 20:05:10,109:INFO:            imblearn: 0.12.4
+2025-06-02 20:05:10,109:INFO:   category_encoders: 2.7.0
+2025-06-02 20:05:10,109:INFO:            lightgbm: 4.6.0
+2025-06-02 20:05:10,109:INFO:               numba: 0.61.2
+2025-06-02 20:05:10,109:INFO:            requests: 2.32.3
+2025-06-02 20:05:10,109:INFO:          matplotlib: 3.6.0
+2025-06-02 20:05:10,109:INFO:          scikitplot: 0.3.7
+2025-06-02 20:05:10,109:INFO:         yellowbrick: 1.5
+2025-06-02 20:05:10,109:INFO:              plotly: 5.24.1
+2025-06-02 20:05:10,109:INFO:    plotly-resampler: Not installed
+2025-06-02 20:05:10,109:INFO:             kaleido: 0.2.1
+2025-06-02 20:05:10,109:INFO:           schemdraw: 0.15
+2025-06-02 20:05:10,109:INFO:         statsmodels: 0.14.4
+2025-06-02 20:05:10,109:INFO:              sktime: 0.21.1
+2025-06-02 20:05:10,109:INFO:               tbats: 1.1.3
+2025-06-02 20:05:10,109:INFO:            pmdarima: 2.0.4
+2025-06-02 20:05:10,109:INFO:              psutil: 7.0.0
+2025-06-02 20:05:10,109:INFO:          markupsafe: 3.0.2
+2025-06-02 20:05:10,109:INFO:             pickle5: Not installed
+2025-06-02 20:05:10,109:INFO:         cloudpickle: 2.2.1
+2025-06-02 20:05:10,109:INFO:         deprecation: 2.1.0
+2025-06-02 20:05:10,109:INFO:              xxhash: 3.5.0
+2025-06-02 20:05:10,109:INFO:           wurlitzer: Not installed
+2025-06-02 20:05:10,109:INFO:PyCaret optional dependencies:
+2025-06-02 20:05:10,758:INFO:                shap: Not installed
+2025-06-02 20:05:10,758:INFO:           interpret: Not installed
+2025-06-02 20:05:10,758:INFO:                umap: Not installed
+2025-06-02 20:05:10,758:INFO:     ydata_profiling: Not installed
+2025-06-02 20:05:10,758:INFO:  explainerdashboard: Not installed
+2025-06-02 20:05:10,758:INFO:             autoviz: Not installed
+2025-06-02 20:05:10,758:INFO:           fairlearn: Not installed
+2025-06-02 20:05:10,758:INFO:          deepchecks: Not installed
+2025-06-02 20:05:10,758:INFO:             xgboost: Not installed
+2025-06-02 20:05:10,758:INFO:            catboost: Not installed
+2025-06-02 20:05:10,758:INFO:              kmodes: Not installed
+2025-06-02 20:05:10,759:INFO:             mlxtend: Not installed
+2025-06-02 20:05:10,759:INFO:       statsforecast: Not installed
+2025-06-02 20:05:10,759:INFO:        tune_sklearn: Not installed
+2025-06-02 20:05:10,759:INFO:                 ray: Not installed
+2025-06-02 20:05:10,759:INFO:            hyperopt: Not installed
+2025-06-02 20:05:10,759:INFO:              optuna: Not installed
+2025-06-02 20:05:10,759:INFO:               skopt: Not installed
+2025-06-02 20:05:10,759:INFO:              mlflow: 2.22.0
+2025-06-02 20:05:10,759:INFO:              gradio: Not installed
+2025-06-02 20:05:10,759:INFO:             fastapi: 0.115.12
+2025-06-02 20:05:10,759:INFO:             uvicorn: 0.34.2
+2025-06-02 20:05:10,759:INFO:              m2cgen: Not installed
+2025-06-02 20:05:10,759:INFO:           evidently: Not installed
+2025-06-02 20:05:10,759:INFO:               fugue: Not installed
+2025-06-02 20:05:10,759:INFO:           streamlit: Not installed
+2025-06-02 20:05:10,759:INFO:             prophet: Not installed
+2025-06-02 20:05:10,759:INFO:None
+2025-06-02 20:05:10,759:INFO:Set up data.
+2025-06-02 20:05:10,767:INFO:Set up folding strategy.
+2025-06-02 20:05:10,768:INFO:Set up train/test split.
+2025-06-02 20:05:10,773:INFO:Set up index.
+2025-06-02 20:05:10,773:INFO:Assigning column types.
+2025-06-02 20:05:10,775:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-06-02 20:05:10,812:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-06-02 20:05:10,814:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-06-02 20:05:10,862:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:10,862:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:10,896:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-06-02 20:05:10,897:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-06-02 20:05:10,916:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:10,916:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:10,916:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-06-02 20:05:10,950:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-06-02 20:05:10,971:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:10,972:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,006:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-06-02 20:05:11,029:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,029:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,029:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2025-06-02 20:05:11,098:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,098:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,151:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,151:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,154:INFO:Preparing preprocessing pipeline...
+2025-06-02 20:05:11,156:INFO:Set up simple imputation.
+2025-06-02 20:05:11,158:INFO:Set up encoding of categorical features.
+2025-06-02 20:05:11,218:INFO:Finished creating preprocessing pipeline.
+2025-06-02 20:05:11,234:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\amonreal\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              c...
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated'))),
+                ('onehot_encoding',
+                 TransformerWrapper(exclude=None,
+                                    include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=OneHotEncoder(cols=['segmento',
+                                                                    'rango_ingresos',
+                                                                    'region'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0)))],
+         verbose=False)
+2025-06-02 20:05:11,235:INFO:Creating final display dataframe.
+2025-06-02 20:05:11,439:INFO:Setup _display_container:                     Description            Value
+0                    Session id              123
+1                        Target   cerrara_cuenta
+2                   Target type           Binary
+3           Original data shape       (2000, 13)
+4        Transformed data shape       (2000, 20)
+5   Transformed train set shape       (1400, 20)
+6    Transformed test set shape        (600, 20)
+7              Numeric features                9
+8          Categorical features                3
+9                    Preprocess             True
+10              Imputation type           simple
+11           Numeric imputation             mean
+12       Categorical imputation             mode
+13     Maximum one-hot encoding               25
+14              Encoding method             None
+15               Fold Generator  StratifiedKFold
+16                  Fold Number               10
+17                     CPU Jobs               -1
+18                      Use GPU            False
+19               Log Experiment            False
+20              Experiment Name   banking-autoML
+21                          USI             1d97
+2025-06-02 20:05:11,528:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,528:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,589:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,591:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-06-02 20:05:11,591:INFO:setup() successfully completed in 1.6s...............
+2025-06-02 20:05:11,592:INFO:Initializing compare_models()
+2025-06-02 20:05:11,592:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, include=None, exclude=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>})
+2025-06-02 20:05:11,592:INFO:Checking exceptions
+2025-06-02 20:05:11,595:INFO:Preparing display monitor
+2025-06-02 20:05:11,599:INFO:Initializing Logistic Regression
+2025-06-02 20:05:11,599:INFO:Total runtime is 0.0 minutes
+2025-06-02 20:05:11,600:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:11,600:INFO:Initializing create_model()
+2025-06-02 20:05:11,600:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:11,600:INFO:Checking exceptions
+2025-06-02 20:05:11,600:INFO:Importing libraries
+2025-06-02 20:05:11,600:INFO:Copying training dataset
+2025-06-02 20:05:11,606:INFO:Defining folds
+2025-06-02 20:05:11,606:INFO:Declaring metric variables
+2025-06-02 20:05:11,606:INFO:Importing untrained model
+2025-06-02 20:05:11,606:INFO:Logistic Regression Imported successfully
+2025-06-02 20:05:11,607:INFO:Starting cross validation
+2025-06-02 20:05:11,608:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:16,278:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,299:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,335:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,351:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,401:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,426:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,446:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,468:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,505:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,529:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:16,540:INFO:Calculating mean and std
+2025-06-02 20:05:16,541:INFO:Creating metrics dataframe
+2025-06-02 20:05:16,545:INFO:Uploading results into container
+2025-06-02 20:05:16,545:INFO:Uploading model into container now
+2025-06-02 20:05:16,546:INFO:_master_model_container: 1
+2025-06-02 20:05:16,546:INFO:_display_container: 2
+2025-06-02 20:05:16,546:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-06-02 20:05:16,546:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:16,658:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:16,658:INFO:Creating metrics dataframe
+2025-06-02 20:05:16,661:INFO:Initializing K Neighbors Classifier
+2025-06-02 20:05:16,661:INFO:Total runtime is 0.08437424500783285 minutes
+2025-06-02 20:05:16,661:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:16,661:INFO:Initializing create_model()
+2025-06-02 20:05:16,661:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:16,661:INFO:Checking exceptions
+2025-06-02 20:05:16,661:INFO:Importing libraries
+2025-06-02 20:05:16,661:INFO:Copying training dataset
+2025-06-02 20:05:16,664:INFO:Defining folds
+2025-06-02 20:05:16,664:INFO:Declaring metric variables
+2025-06-02 20:05:16,664:INFO:Importing untrained model
+2025-06-02 20:05:16,664:INFO:K Neighbors Classifier Imported successfully
+2025-06-02 20:05:16,664:INFO:Starting cross validation
+2025-06-02 20:05:16,666:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:19,285:INFO:Calculating mean and std
+2025-06-02 20:05:19,286:INFO:Creating metrics dataframe
+2025-06-02 20:05:19,289:INFO:Uploading results into container
+2025-06-02 20:05:19,289:INFO:Uploading model into container now
+2025-06-02 20:05:19,290:INFO:_master_model_container: 2
+2025-06-02 20:05:19,290:INFO:_display_container: 2
+2025-06-02 20:05:19,290:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2025-06-02 20:05:19,290:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:19,400:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:19,400:INFO:Creating metrics dataframe
+2025-06-02 20:05:19,403:INFO:Initializing Naive Bayes
+2025-06-02 20:05:19,403:INFO:Total runtime is 0.13006474574406943 minutes
+2025-06-02 20:05:19,403:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:19,403:INFO:Initializing create_model()
+2025-06-02 20:05:19,404:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:19,404:INFO:Checking exceptions
+2025-06-02 20:05:19,404:INFO:Importing libraries
+2025-06-02 20:05:19,404:INFO:Copying training dataset
+2025-06-02 20:05:19,407:INFO:Defining folds
+2025-06-02 20:05:19,407:INFO:Declaring metric variables
+2025-06-02 20:05:19,407:INFO:Importing untrained model
+2025-06-02 20:05:19,407:INFO:Naive Bayes Imported successfully
+2025-06-02 20:05:19,408:INFO:Starting cross validation
+2025-06-02 20:05:19,410:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:19,525:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,528:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,530:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,532:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,535:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,535:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,537:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,539:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,542:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,546:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:19,556:INFO:Calculating mean and std
+2025-06-02 20:05:19,557:INFO:Creating metrics dataframe
+2025-06-02 20:05:19,559:INFO:Uploading results into container
+2025-06-02 20:05:19,559:INFO:Uploading model into container now
+2025-06-02 20:05:19,559:INFO:_master_model_container: 3
+2025-06-02 20:05:19,559:INFO:_display_container: 2
+2025-06-02 20:05:19,559:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2025-06-02 20:05:19,559:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:19,662:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:19,663:INFO:Creating metrics dataframe
+2025-06-02 20:05:19,666:INFO:Initializing Decision Tree Classifier
+2025-06-02 20:05:19,667:INFO:Total runtime is 0.1344579339027405 minutes
+2025-06-02 20:05:19,667:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:19,667:INFO:Initializing create_model()
+2025-06-02 20:05:19,667:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:19,667:INFO:Checking exceptions
+2025-06-02 20:05:19,667:INFO:Importing libraries
+2025-06-02 20:05:19,667:INFO:Copying training dataset
+2025-06-02 20:05:19,669:INFO:Defining folds
+2025-06-02 20:05:19,669:INFO:Declaring metric variables
+2025-06-02 20:05:19,670:INFO:Importing untrained model
+2025-06-02 20:05:19,670:INFO:Decision Tree Classifier Imported successfully
+2025-06-02 20:05:19,670:INFO:Starting cross validation
+2025-06-02 20:05:19,671:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:19,820:INFO:Calculating mean and std
+2025-06-02 20:05:19,821:INFO:Creating metrics dataframe
+2025-06-02 20:05:19,823:INFO:Uploading results into container
+2025-06-02 20:05:19,823:INFO:Uploading model into container now
+2025-06-02 20:05:19,825:INFO:_master_model_container: 4
+2025-06-02 20:05:19,825:INFO:_display_container: 2
+2025-06-02 20:05:19,825:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       random_state=123, splitter='best')
+2025-06-02 20:05:19,825:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:19,930:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:19,930:INFO:Creating metrics dataframe
+2025-06-02 20:05:19,933:INFO:Initializing SVM - Linear Kernel
+2025-06-02 20:05:19,933:INFO:Total runtime is 0.13890098730723066 minutes
+2025-06-02 20:05:19,933:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:19,933:INFO:Initializing create_model()
+2025-06-02 20:05:19,933:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:19,935:INFO:Checking exceptions
+2025-06-02 20:05:19,935:INFO:Importing libraries
+2025-06-02 20:05:19,935:INFO:Copying training dataset
+2025-06-02 20:05:19,937:INFO:Defining folds
+2025-06-02 20:05:19,938:INFO:Declaring metric variables
+2025-06-02 20:05:19,938:INFO:Importing untrained model
+2025-06-02 20:05:19,939:INFO:SVM - Linear Kernel Imported successfully
+2025-06-02 20:05:19,939:INFO:Starting cross validation
+2025-06-02 20:05:19,941:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:20,073:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,074:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,081:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,086:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,086:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,087:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,088:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,090:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,092:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,093:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,093:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,099:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,105:INFO:Calculating mean and std
+2025-06-02 20:05:20,106:INFO:Creating metrics dataframe
+2025-06-02 20:05:20,109:INFO:Uploading results into container
+2025-06-02 20:05:20,109:INFO:Uploading model into container now
+2025-06-02 20:05:20,109:INFO:_master_model_container: 5
+2025-06-02 20:05:20,109:INFO:_display_container: 2
+2025-06-02 20:05:20,109:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=123, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2025-06-02 20:05:20,109:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:20,216:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:20,216:INFO:Creating metrics dataframe
+2025-06-02 20:05:20,219:INFO:Initializing Ridge Classifier
+2025-06-02 20:05:20,219:INFO:Total runtime is 0.14366420507431032 minutes
+2025-06-02 20:05:20,219:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:20,219:INFO:Initializing create_model()
+2025-06-02 20:05:20,219:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:20,220:INFO:Checking exceptions
+2025-06-02 20:05:20,220:INFO:Importing libraries
+2025-06-02 20:05:20,220:INFO:Copying training dataset
+2025-06-02 20:05:20,222:INFO:Defining folds
+2025-06-02 20:05:20,222:INFO:Declaring metric variables
+2025-06-02 20:05:20,223:INFO:Importing untrained model
+2025-06-02 20:05:20,223:INFO:Ridge Classifier Imported successfully
+2025-06-02 20:05:20,223:INFO:Starting cross validation
+2025-06-02 20:05:20,223:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:20,336:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,338:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,339:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,339:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,341:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,341:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,342:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,342:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,342:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,344:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,345:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,345:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,345:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,345:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,346:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,347:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,347:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,349:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,353:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py:190: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+           ~~~~~^^^^^^^^
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\metrics.py", line 182, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\pycaret\internal\pipeline.py", line 127, in __getattr__
+    return getattr(self._final_estimator, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-06-02 20:05:20,357:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:20,365:INFO:Calculating mean and std
+2025-06-02 20:05:20,365:INFO:Creating metrics dataframe
+2025-06-02 20:05:20,368:INFO:Uploading results into container
+2025-06-02 20:05:20,369:INFO:Uploading model into container now
+2025-06-02 20:05:20,369:INFO:_master_model_container: 6
+2025-06-02 20:05:20,369:INFO:_display_container: 2
+2025-06-02 20:05:20,369:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, positive=False, random_state=123, solver='auto',
+                tol=0.0001)
+2025-06-02 20:05:20,369:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:20,477:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:20,477:INFO:Creating metrics dataframe
+2025-06-02 20:05:20,481:INFO:Initializing Random Forest Classifier
+2025-06-02 20:05:20,481:INFO:Total runtime is 0.14803613026936852 minutes
+2025-06-02 20:05:20,481:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:20,481:INFO:Initializing create_model()
+2025-06-02 20:05:20,481:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:20,481:INFO:Checking exceptions
+2025-06-02 20:05:20,481:INFO:Importing libraries
+2025-06-02 20:05:20,481:INFO:Copying training dataset
+2025-06-02 20:05:20,485:INFO:Defining folds
+2025-06-02 20:05:20,485:INFO:Declaring metric variables
+2025-06-02 20:05:20,485:INFO:Importing untrained model
+2025-06-02 20:05:20,486:INFO:Random Forest Classifier Imported successfully
+2025-06-02 20:05:20,486:INFO:Starting cross validation
+2025-06-02 20:05:20,488:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:21,005:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:21,012:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:21,033:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:21,046:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:21,089:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:21,165:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:21,174:INFO:Calculating mean and std
+2025-06-02 20:05:21,175:INFO:Creating metrics dataframe
+2025-06-02 20:05:21,178:INFO:Uploading results into container
+2025-06-02 20:05:21,179:INFO:Uploading model into container now
+2025-06-02 20:05:21,179:INFO:_master_model_container: 7
+2025-06-02 20:05:21,179:INFO:_display_container: 2
+2025-06-02 20:05:21,179:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=123, verbose=0, warm_start=False)
+2025-06-02 20:05:21,179:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:21,289:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:21,289:INFO:Creating metrics dataframe
+2025-06-02 20:05:21,293:INFO:Initializing Quadratic Discriminant Analysis
+2025-06-02 20:05:21,293:INFO:Total runtime is 0.1615639368693034 minutes
+2025-06-02 20:05:21,293:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:21,293:INFO:Initializing create_model()
+2025-06-02 20:05:21,293:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:21,294:INFO:Checking exceptions
+2025-06-02 20:05:21,294:INFO:Importing libraries
+2025-06-02 20:05:21,294:INFO:Copying training dataset
+2025-06-02 20:05:21,296:INFO:Defining folds
+2025-06-02 20:05:21,296:INFO:Declaring metric variables
+2025-06-02 20:05:21,297:INFO:Importing untrained model
+2025-06-02 20:05:21,297:INFO:Quadratic Discriminant Analysis Imported successfully
+2025-06-02 20:05:21,298:INFO:Starting cross validation
+2025-06-02 20:05:21,302:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:21,385:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,387:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,387:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,397:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,399:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,399:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,400:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,402:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,407:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,409:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2025-06-02 20:05:21,427:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:21,449:INFO:Calculating mean and std
+2025-06-02 20:05:21,449:INFO:Creating metrics dataframe
+2025-06-02 20:05:21,452:INFO:Uploading results into container
+2025-06-02 20:05:21,452:INFO:Uploading model into container now
+2025-06-02 20:05:21,453:INFO:_master_model_container: 8
+2025-06-02 20:05:21,453:INFO:_display_container: 2
+2025-06-02 20:05:21,453:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2025-06-02 20:05:21,453:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:21,560:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:21,561:INFO:Creating metrics dataframe
+2025-06-02 20:05:21,563:INFO:Initializing Ada Boost Classifier
+2025-06-02 20:05:21,565:INFO:Total runtime is 0.1660955309867859 minutes
+2025-06-02 20:05:21,565:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:21,565:INFO:Initializing create_model()
+2025-06-02 20:05:21,565:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:21,565:INFO:Checking exceptions
+2025-06-02 20:05:21,565:INFO:Importing libraries
+2025-06-02 20:05:21,565:INFO:Copying training dataset
+2025-06-02 20:05:21,569:INFO:Defining folds
+2025-06-02 20:05:21,569:INFO:Declaring metric variables
+2025-06-02 20:05:21,569:INFO:Importing untrained model
+2025-06-02 20:05:21,569:INFO:Ada Boost Classifier Imported successfully
+2025-06-02 20:05:21,569:INFO:Starting cross validation
+2025-06-02 20:05:21,570:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:21,838:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:21,851:INFO:Calculating mean and std
+2025-06-02 20:05:21,852:INFO:Creating metrics dataframe
+2025-06-02 20:05:21,853:INFO:Uploading results into container
+2025-06-02 20:05:21,855:INFO:Uploading model into container now
+2025-06-02 20:05:21,855:INFO:_master_model_container: 9
+2025-06-02 20:05:21,855:INFO:_display_container: 2
+2025-06-02 20:05:21,855:INFO:AdaBoostClassifier(algorithm='SAMME.R', base_estimator='deprecated',
+                   estimator=None, learning_rate=1.0, n_estimators=50,
+                   random_state=123)
+2025-06-02 20:05:21,856:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:21,958:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:21,958:INFO:Creating metrics dataframe
+2025-06-02 20:05:21,961:INFO:Initializing Gradient Boosting Classifier
+2025-06-02 20:05:21,961:INFO:Total runtime is 0.17270578543345133 minutes
+2025-06-02 20:05:21,961:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:21,962:INFO:Initializing create_model()
+2025-06-02 20:05:21,962:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:21,962:INFO:Checking exceptions
+2025-06-02 20:05:21,962:INFO:Importing libraries
+2025-06-02 20:05:21,962:INFO:Copying training dataset
+2025-06-02 20:05:21,965:INFO:Defining folds
+2025-06-02 20:05:21,966:INFO:Declaring metric variables
+2025-06-02 20:05:21,966:INFO:Importing untrained model
+2025-06-02 20:05:21,967:INFO:Gradient Boosting Classifier Imported successfully
+2025-06-02 20:05:21,968:INFO:Starting cross validation
+2025-06-02 20:05:21,970:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:22,439:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,449:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,466:INFO:Calculating mean and std
+2025-06-02 20:05:22,467:INFO:Creating metrics dataframe
+2025-06-02 20:05:22,469:INFO:Uploading results into container
+2025-06-02 20:05:22,469:INFO:Uploading model into container now
+2025-06-02 20:05:22,470:INFO:_master_model_container: 10
+2025-06-02 20:05:22,470:INFO:_display_container: 2
+2025-06-02 20:05:22,470:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2025-06-02 20:05:22,470:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:22,570:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:22,570:INFO:Creating metrics dataframe
+2025-06-02 20:05:22,573:INFO:Initializing Linear Discriminant Analysis
+2025-06-02 20:05:22,573:INFO:Total runtime is 0.18290532827377318 minutes
+2025-06-02 20:05:22,575:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:22,575:INFO:Initializing create_model()
+2025-06-02 20:05:22,575:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:22,575:INFO:Checking exceptions
+2025-06-02 20:05:22,575:INFO:Importing libraries
+2025-06-02 20:05:22,575:INFO:Copying training dataset
+2025-06-02 20:05:22,578:INFO:Defining folds
+2025-06-02 20:05:22,578:INFO:Declaring metric variables
+2025-06-02 20:05:22,578:INFO:Importing untrained model
+2025-06-02 20:05:22,578:INFO:Linear Discriminant Analysis Imported successfully
+2025-06-02 20:05:22,578:INFO:Starting cross validation
+2025-06-02 20:05:22,579:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:22,676:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,688:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,689:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,692:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,696:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,697:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,698:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,701:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,702:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,702:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:22,714:INFO:Calculating mean and std
+2025-06-02 20:05:22,715:INFO:Creating metrics dataframe
+2025-06-02 20:05:22,718:INFO:Uploading results into container
+2025-06-02 20:05:22,718:INFO:Uploading model into container now
+2025-06-02 20:05:22,718:INFO:_master_model_container: 11
+2025-06-02 20:05:22,718:INFO:_display_container: 2
+2025-06-02 20:05:22,718:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2025-06-02 20:05:22,718:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:22,820:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:22,820:INFO:Creating metrics dataframe
+2025-06-02 20:05:22,823:INFO:Initializing Extra Trees Classifier
+2025-06-02 20:05:22,824:INFO:Total runtime is 0.1870650768280029 minutes
+2025-06-02 20:05:22,824:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:22,824:INFO:Initializing create_model()
+2025-06-02 20:05:22,824:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:22,824:INFO:Checking exceptions
+2025-06-02 20:05:22,824:INFO:Importing libraries
+2025-06-02 20:05:22,824:INFO:Copying training dataset
+2025-06-02 20:05:22,827:INFO:Defining folds
+2025-06-02 20:05:22,827:INFO:Declaring metric variables
+2025-06-02 20:05:22,828:INFO:Importing untrained model
+2025-06-02 20:05:22,829:INFO:Extra Trees Classifier Imported successfully
+2025-06-02 20:05:22,829:INFO:Starting cross validation
+2025-06-02 20:05:22,832:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:23,316:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:23,409:INFO:Calculating mean and std
+2025-06-02 20:05:23,409:INFO:Creating metrics dataframe
+2025-06-02 20:05:23,414:INFO:Uploading results into container
+2025-06-02 20:05:23,415:INFO:Uploading model into container now
+2025-06-02 20:05:23,416:INFO:_master_model_container: 12
+2025-06-02 20:05:23,416:INFO:_display_container: 2
+2025-06-02 20:05:23,416:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False)
+2025-06-02 20:05:23,417:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:23,516:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:23,516:INFO:Creating metrics dataframe
+2025-06-02 20:05:23,521:INFO:Initializing Light Gradient Boosting Machine
+2025-06-02 20:05:23,521:INFO:Total runtime is 0.1986992796262105 minutes
+2025-06-02 20:05:23,521:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:23,521:INFO:Initializing create_model()
+2025-06-02 20:05:23,521:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:23,521:INFO:Checking exceptions
+2025-06-02 20:05:23,521:INFO:Importing libraries
+2025-06-02 20:05:23,521:INFO:Copying training dataset
+2025-06-02 20:05:23,524:INFO:Defining folds
+2025-06-02 20:05:23,524:INFO:Declaring metric variables
+2025-06-02 20:05:23,525:INFO:Importing untrained model
+2025-06-02 20:05:23,526:INFO:Light Gradient Boosting Machine Imported successfully
+2025-06-02 20:05:23,527:INFO:Starting cross validation
+2025-06-02 20:05:23,530:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:24,834:INFO:Calculating mean and std
+2025-06-02 20:05:24,834:INFO:Creating metrics dataframe
+2025-06-02 20:05:24,837:INFO:Uploading results into container
+2025-06-02 20:05:24,838:INFO:Uploading model into container now
+2025-06-02 20:05:24,838:INFO:_master_model_container: 13
+2025-06-02 20:05:24,838:INFO:_display_container: 2
+2025-06-02 20:05:24,839:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0)
+2025-06-02 20:05:24,839:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:24,961:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:24,962:INFO:Creating metrics dataframe
+2025-06-02 20:05:24,966:INFO:Initializing Dummy Classifier
+2025-06-02 20:05:24,966:INFO:Total runtime is 0.22278072039286292 minutes
+2025-06-02 20:05:24,966:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:24,966:INFO:Initializing create_model()
+2025-06-02 20:05:24,966:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000213212B4310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:24,966:INFO:Checking exceptions
+2025-06-02 20:05:24,966:INFO:Importing libraries
+2025-06-02 20:05:24,966:INFO:Copying training dataset
+2025-06-02 20:05:24,969:INFO:Defining folds
+2025-06-02 20:05:24,969:INFO:Declaring metric variables
+2025-06-02 20:05:24,969:INFO:Importing untrained model
+2025-06-02 20:05:24,969:INFO:Dummy Classifier Imported successfully
+2025-06-02 20:05:24,969:INFO:Starting cross validation
+2025-06-02 20:05:24,971:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:25,073:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,073:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,074:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,076:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,079:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,079:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,081:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,081:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,081:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,082:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:25,095:INFO:Calculating mean and std
+2025-06-02 20:05:25,096:INFO:Creating metrics dataframe
+2025-06-02 20:05:25,098:INFO:Uploading results into container
+2025-06-02 20:05:25,098:INFO:Uploading model into container now
+2025-06-02 20:05:25,099:INFO:_master_model_container: 14
+2025-06-02 20:05:25,099:INFO:_display_container: 2
+2025-06-02 20:05:25,099:INFO:DummyClassifier(constant=None, random_state=123, strategy='prior')
+2025-06-02 20:05:25,099:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:25,199:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:25,199:INFO:Creating metrics dataframe
+2025-06-02 20:05:25,208:INFO:Initializing create_model()
+2025-06-02 20:05:25,209:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:25,209:INFO:Checking exceptions
+2025-06-02 20:05:25,210:INFO:Importing libraries
+2025-06-02 20:05:25,211:INFO:Copying training dataset
+2025-06-02 20:05:25,221:INFO:Defining folds
+2025-06-02 20:05:25,222:INFO:Declaring metric variables
+2025-06-02 20:05:25,222:INFO:Importing untrained model
+2025-06-02 20:05:25,222:INFO:Declaring custom model
+2025-06-02 20:05:25,224:INFO:Logistic Regression Imported successfully
+2025-06-02 20:05:25,226:INFO:Cross validation set to False
+2025-06-02 20:05:25,226:INFO:Fitting Model
+2025-06-02 20:05:25,316:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-06-02 20:05:25,316:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:25,469:INFO:_master_model_container: 14
+2025-06-02 20:05:25,469:INFO:_display_container: 2
+2025-06-02 20:05:25,470:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-06-02 20:05:25,470:INFO:compare_models() successfully completed......................................
+2025-06-02 20:05:25,471:INFO:Initializing tune_model()
+2025-06-02 20:05:25,471:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-06-02 20:05:25,471:INFO:Checking exceptions
+2025-06-02 20:05:25,478:INFO:Copying training dataset
+2025-06-02 20:05:25,482:INFO:Checking base model
+2025-06-02 20:05:25,482:INFO:Base model : Logistic Regression
+2025-06-02 20:05:25,483:INFO:Declaring metric variables
+2025-06-02 20:05:25,483:INFO:Defining Hyperparameters
+2025-06-02 20:05:25,591:INFO:Tuning with n_jobs=-1
+2025-06-02 20:05:25,591:INFO:Initializing RandomizedSearchCV
+2025-06-02 20:05:26,729:INFO:best_params: {'actual_estimator__class_weight': {}, 'actual_estimator__C': 7.863}
+2025-06-02 20:05:26,730:INFO:Hyperparameter search completed
+2025-06-02 20:05:26,730:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:26,730:INFO:Initializing create_model()
+2025-06-02 20:05:26,730:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000021321006ED0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'class_weight': {}, 'C': 7.863})
+2025-06-02 20:05:26,730:INFO:Checking exceptions
+2025-06-02 20:05:26,731:INFO:Importing libraries
+2025-06-02 20:05:26,731:INFO:Copying training dataset
+2025-06-02 20:05:26,733:INFO:Defining folds
+2025-06-02 20:05:26,733:INFO:Declaring metric variables
+2025-06-02 20:05:26,733:INFO:Importing untrained model
+2025-06-02 20:05:26,733:INFO:Declaring custom model
+2025-06-02 20:05:26,735:INFO:Logistic Regression Imported successfully
+2025-06-02 20:05:26,735:INFO:Starting cross validation
+2025-06-02 20:05:26,736:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:26,853:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,856:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,862:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,863:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,865:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,866:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,867:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,868:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,873:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:26,880:INFO:Calculating mean and std
+2025-06-02 20:05:26,881:INFO:Creating metrics dataframe
+2025-06-02 20:05:26,882:INFO:Finalizing model
+2025-06-02 20:05:26,958:INFO:Uploading results into container
+2025-06-02 20:05:26,959:INFO:Uploading model into container now
+2025-06-02 20:05:26,959:INFO:_master_model_container: 15
+2025-06-02 20:05:26,959:INFO:_display_container: 3
+2025-06-02 20:05:26,959:INFO:LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-06-02 20:05:26,959:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:27,065:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:27,065:INFO:choose_better activated
+2025-06-02 20:05:27,066:INFO:SubProcess create_model() called ==================================
+2025-06-02 20:05:27,066:INFO:Initializing create_model()
+2025-06-02 20:05:27,066:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000212FB9A52D0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-06-02 20:05:27,066:INFO:Checking exceptions
+2025-06-02 20:05:27,067:INFO:Importing libraries
+2025-06-02 20:05:27,067:INFO:Copying training dataset
+2025-06-02 20:05:27,069:INFO:Defining folds
+2025-06-02 20:05:27,069:INFO:Declaring metric variables
+2025-06-02 20:05:27,069:INFO:Importing untrained model
+2025-06-02 20:05:27,069:INFO:Declaring custom model
+2025-06-02 20:05:27,070:INFO:Logistic Regression Imported successfully
+2025-06-02 20:05:27,070:INFO:Starting cross validation
+2025-06-02 20:05:27,071:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-06-02 20:05:27,184:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,195:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,198:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,202:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,203:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,205:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,205:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,205:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,208:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,209:WARNING:C:\Users\amonreal\Documents\amlbash\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-06-02 20:05:27,217:INFO:Calculating mean and std
+2025-06-02 20:05:27,217:INFO:Creating metrics dataframe
+2025-06-02 20:05:27,219:INFO:Finalizing model
+2025-06-02 20:05:27,287:INFO:Uploading results into container
+2025-06-02 20:05:27,288:INFO:Uploading model into container now
+2025-06-02 20:05:27,289:INFO:_master_model_container: 16
+2025-06-02 20:05:27,289:INFO:_display_container: 4
+2025-06-02 20:05:27,289:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-06-02 20:05:27,289:INFO:create_model() successfully completed......................................
+2025-06-02 20:05:27,390:INFO:SubProcess create_model() end ==================================
+2025-06-02 20:05:27,391:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Accuracy is 0.8457
+2025-06-02 20:05:27,391:INFO:LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Accuracy is 0.8457
+2025-06-02 20:05:27,391:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) is best model
+2025-06-02 20:05:27,391:INFO:choose_better completed
+2025-06-02 20:05:27,391:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2025-06-02 20:05:27,399:INFO:_master_model_container: 16
+2025-06-02 20:05:27,400:INFO:_display_container: 3
+2025-06-02 20:05:27,401:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-06-02 20:05:27,401:INFO:tune_model() successfully completed......................................
+2025-06-02 20:05:27,512:INFO:Initializing save_model()
+2025-06-02 20:05:27,512:INFO:save_model(model=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), model_name=modelo_bank_mlflow, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\amonreal\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              c...
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated'))),
+                ('onehot_encoding',
+                 TransformerWrapper(exclude=None,
+                                    include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=OneHotEncoder(cols=['segmento',
+                                                                    'rango_ingresos',
+                                                                    'region'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-06-02 20:05:27,512:INFO:Adding model into prep_pipe
+2025-06-02 20:05:27,518:INFO:modelo_bank_mlflow.pkl saved in current working directory
+2025-06-02 20:05:27,523:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_feature...
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=123,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False)
+2025-06-02 20:05:27,523:INFO:save_model() successfully completed......................................
+2025-06-02 20:05:50,983:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:05:50,983:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:05:50,983:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:05:50,983:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:05:52,918:INFO:Initializing load_model()
+2025-06-02 20:05:52,919:INFO:load_model(model_name=modelo_bank_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-02 20:06:50,086:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:06:50,087:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:06:50,087:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:06:50,087:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:06:52,156:INFO:Initializing load_model()
+2025-06-02 20:06:52,157:INFO:load_model(model_name=modelo_bank_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-02 20:09:47,268:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:09:47,268:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:09:47,268:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:09:47,268:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:09:49,236:INFO:Initializing load_model()
+2025-06-02 20:09:49,236:INFO:load_model(model_name=modelo_bank_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-02 20:30:59,136:INFO:Initializing predict_model()
+2025-06-02 20:30:59,136:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021DF1CC1B10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=OneHotEncoder(cols=['segmento',
+                                                                    'rango_ingresos',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021DB89B7240>)
+2025-06-02 20:30:59,136:INFO:Checking exceptions
+2025-06-02 20:30:59,136:INFO:Preloading libraries
+2025-06-02 20:30:59,137:INFO:Set up data.
+2025-06-02 20:30:59,146:INFO:Set up index.
+2025-06-02 20:31:23,326:INFO:Initializing predict_model()
+2025-06-02 20:31:23,326:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021DF3175090>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=OneHotEncoder(cols=['segmento',
+                                                                    'rango_ingresos',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021DF1F11A80>)
+2025-06-02 20:31:23,326:INFO:Checking exceptions
+2025-06-02 20:31:23,326:INFO:Preloading libraries
+2025-06-02 20:31:23,326:INFO:Set up data.
+2025-06-02 20:31:23,332:INFO:Set up index.
+2025-06-02 20:32:08,793:INFO:Initializing predict_model()
+2025-06-02 20:32:08,793:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021DF3188110>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=OneHotEncoder(cols=['segmento',
+                                                                    'rango_ingresos',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021DF1F12200>)
+2025-06-02 20:32:08,793:INFO:Checking exceptions
+2025-06-02 20:32:08,793:INFO:Preloading libraries
+2025-06-02 20:32:08,793:INFO:Set up data.
+2025-06-02 20:32:08,797:INFO:Set up index.
+2025-06-02 20:33:08,953:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:33:08,954:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:33:08,954:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:33:08,954:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:33:11,060:INFO:Initializing load_model()
+2025-06-02 20:33:11,060:INFO:load_model(model_name=modelo_bank_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-02 20:34:52,275:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:34:52,276:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:34:52,276:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:34:52,276:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:34:54,508:INFO:Initializing load_model()
+2025-06-02 20:34:54,509:INFO:load_model(model_name=modelo_bank_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-02 20:36:24,621:INFO:Initializing predict_model()
+2025-06-02 20:36:24,622:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012DCB77C750>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=OneHotEncoder(cols=['segmento',
+                                                                    'rango_ingresos',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012D92317240>)
+2025-06-02 20:36:24,622:INFO:Checking exceptions
+2025-06-02 20:36:24,622:INFO:Preloading libraries
+2025-06-02 20:36:24,623:INFO:Set up data.
+2025-06-02 20:36:24,634:INFO:Set up index.
+2025-06-02 20:45:26,619:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:45:26,620:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:45:26,620:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:45:26,620:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:45:28,602:INFO:Initializing load_model()
+2025-06-02 20:45:28,602:INFO:load_model(model_name=modelo_bank_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-02 20:49:31,685:INFO:Initializing predict_model()
+2025-06-02 20:49:31,685:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001C2EB933CD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=OneHotEncoder(cols=['segmento',
+                                                                    'rango_ingresos',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C2B27C7240>)
+2025-06-02 20:49:31,685:INFO:Checking exceptions
+2025-06-02 20:49:31,685:INFO:Preloading libraries
+2025-06-02 20:49:31,687:INFO:Set up data.
+2025-06-02 20:49:31,693:INFO:Set up index.
+2025-06-02 20:55:45,026:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:55:45,027:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:55:45,027:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:55:45,027:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-02 20:55:47,029:INFO:Initializing load_model()
+2025-06-02 20:55:47,030:INFO:load_model(model_name=modelo_bank_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-02 20:56:10,709:INFO:Initializing predict_model()
+2025-06-02 20:56:10,709:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000024A06F9C290>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'saldo_total',
+                                             'numero_productos',
+                                             'visitas_app_mes', 'usa_web',
+                                             'usa_tarjeta_credito',
+                                             'reclamos_6m',
+                                             'satisfaccion_encuesta',
+                                             'tasa_credito_personal'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['segmento', 'rango_ingresos',
+                                             'region'],
+                                    transformer=OneHotEncoder(cols=['segmento',
+                                                                    'rango_ingresos',
+                                                                    'region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000249E3BF7240>)
+2025-06-02 20:56:10,710:INFO:Checking exceptions
+2025-06-02 20:56:10,710:INFO:Preloading libraries
+2025-06-02 20:56:10,710:INFO:Set up data.
+2025-06-02 20:56:10,716:INFO:Set up index.
