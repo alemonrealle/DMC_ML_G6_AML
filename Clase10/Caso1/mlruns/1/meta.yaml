@@ -1,0 +1,6 @@
+artifact_location: ./mlruns/1
+creation_time: 1749520537240
+experiment_id: '1'
+last_update_time: 1749520537240
+lifecycle_stage: active
+name: clustering_cust

@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/f34fb37ca5624b6993a80096276e704b/artifacts
+end_time: 1749692184524
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: f34fb37ca5624b6993a80096276e704b
+run_name: Session Initialized d50a
+run_uuid: f34fb37ca5624b6993a80096276e704b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692140486
+status: 3
+tags: []
+user_id: amonreal

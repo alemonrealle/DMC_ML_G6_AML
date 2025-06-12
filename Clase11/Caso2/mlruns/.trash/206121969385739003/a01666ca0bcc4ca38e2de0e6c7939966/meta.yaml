@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/a01666ca0bcc4ca38e2de0e6c7939966/artifacts
+deleted_time: 1749694748394
+end_time: 1749693832318
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: a01666ca0bcc4ca38e2de0e6c7939966
+run_name: SVM - Linear Kernel
+run_uuid: a01666ca0bcc4ca38e2de0e6c7939966
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693831844
+status: 3
+tags: []
+user_id: amonreal

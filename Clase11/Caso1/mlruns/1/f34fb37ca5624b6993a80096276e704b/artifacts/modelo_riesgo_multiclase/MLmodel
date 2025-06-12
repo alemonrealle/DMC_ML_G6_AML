@@ -1,0 +1,20 @@
+run_id: f34fb37ca5624b6993a80096276e704b
+artifact_path: modelo_riesgo_multiclase
+utc_time_created: '2025-06-12 01:36:17.734536'
+flavors:
+  python_function:
+    model_path: model.pkl
+    predict_fn: predict
+    loader_module: mlflow.sklearn
+    python_version: 3.11.9
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+  sklearn:
+    pickled_model: model.pkl
+    sklearn_version: 1.2.2
+    serialization_format: cloudpickle
+    code: null
+model_uuid: e82263d3e32d41fd95bcf729168b9319
+mlflow_version: 2.10.0
+model_size_bytes: 2346

@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/3ac690053ce143549e08291681ee57e1/artifacts
+end_time: 1749692173163
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 3ac690053ce143549e08291681ee57e1
+run_name: Dummy Classifier
+run_uuid: 3ac690053ce143549e08291681ee57e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692172852
+status: 3
+tags: []
+user_id: amonreal

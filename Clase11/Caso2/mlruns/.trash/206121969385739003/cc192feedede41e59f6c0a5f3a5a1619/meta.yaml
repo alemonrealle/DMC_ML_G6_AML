@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/cc192feedede41e59f6c0a5f3a5a1619/artifacts
+deleted_time: 1749694748394
+end_time: 1749694028371
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: cc192feedede41e59f6c0a5f3a5a1619
+run_name: Light Gradient Boosting Machine
+run_uuid: cc192feedede41e59f6c0a5f3a5a1619
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749694028017
+status: 3
+tags: []
+user_id: amonreal

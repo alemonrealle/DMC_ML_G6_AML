@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/2d1c44af7a3b43b0a7b8ac8416a7b519/artifacts
+deleted_time: 1749694748394
+end_time: 1749693833004
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: 2d1c44af7a3b43b0a7b8ac8416a7b519
+run_name: K Neighbors Classifier
+run_uuid: 2d1c44af7a3b43b0a7b8ac8416a7b519
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693832548
+status: 3
+tags: []
+user_id: amonreal

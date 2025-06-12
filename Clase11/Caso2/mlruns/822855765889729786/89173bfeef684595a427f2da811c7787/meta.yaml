@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/822855765889729786/89173bfeef684595a427f2da811c7787/artifacts
+end_time: 1749694878450
+entry_point_name: ''
+experiment_id: '822855765889729786'
+lifecycle_stage: active
+run_id: 89173bfeef684595a427f2da811c7787
+run_name: K Neighbors Classifier
+run_uuid: 89173bfeef684595a427f2da811c7787
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749694878056
+status: 3
+tags: []
+user_id: amonreal

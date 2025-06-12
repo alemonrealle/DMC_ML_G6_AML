@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/406790657844252826/652227ff79f947fdbfd59f472725562b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '406790657844252826'
+lifecycle_stage: active
+run_id: 652227ff79f947fdbfd59f472725562b
+run_name: Decision Tree Classifier
+run_uuid: 652227ff79f947fdbfd59f472725562b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690460276
+status: 1
+tags: []
+user_id: amonreal

@@ -1,0 +1,21 @@
+curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" \
+-d '{"annual_spend":500, "transactions_per_year":20, "avg_basket_size":5, "days_since_last_purchase":30}'
+
+
+mlflow ui --backend-store-uri file:./mlruns --port 5000
+
+
+pip install pycaret[full] mlflow pandas
+
+
+
+pip install fastapi uvicorn
+
+uvicorn api:app --reload --port 8000
+
+
+streamlit run app.py
+
+
+python train_model.py
+

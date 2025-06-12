@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/378842542968952471/fd3d6b373dfb44769cd2e67deb580e9f/artifacts
+end_time: 1749692959962
+entry_point_name: ''
+experiment_id: '378842542968952471'
+lifecycle_stage: active
+run_id: fd3d6b373dfb44769cd2e67deb580e9f
+run_name: Dummy Regressor
+run_uuid: fd3d6b373dfb44769cd2e67deb580e9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692959568
+status: 3
+tags: []
+user_id: amonreal

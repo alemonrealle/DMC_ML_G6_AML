@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/0e1c35dae10a49b19184916a375adc68/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 0e1c35dae10a49b19184916a375adc68
+run_name: Linear Discriminant Analysis
+run_uuid: 0e1c35dae10a49b19184916a375adc68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749691547209
+status: 1
+tags: []
+user_id: amonreal

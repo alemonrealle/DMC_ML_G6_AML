@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/c7f21ec71f904803b8d311f4bc718291/artifacts
+deleted_time: 1749694748394
+end_time: 1749693828287
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: c7f21ec71f904803b8d311f4bc718291
+run_name: Ridge Classifier
+run_uuid: c7f21ec71f904803b8d311f4bc718291
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693827844
+status: 3
+tags: []
+user_id: amonreal

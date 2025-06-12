@@ -1,0 +1,6 @@
+artifact_location: ./mlruns/406790657844252826
+creation_time: 1749690210286
+experiment_id: '406790657844252826'
+last_update_time: 1749690210286
+lifecycle_stage: active
+name: riesgo_credito_multiclase

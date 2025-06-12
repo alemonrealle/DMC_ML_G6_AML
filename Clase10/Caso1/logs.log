@@ -1,0 +1,29 @@
+2025-06-09 19:57:28,643:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-09 19:57:28,644:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-09 19:57:28,644:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-09 19:57:28,644:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-06-09 19:57:32,786:INFO:PyCaret ClusteringExperiment
+2025-06-09 19:57:32,786:INFO:Logging name: clustering_cust
+2025-06-09 19:57:32,786:INFO:ML Usecase: MLUsecase.CLUSTERING
+2025-06-09 19:57:32,788:INFO:version 3.2.0
+2025-06-09 19:57:32,789:INFO:Initializing setup()
+2025-06-09 19:57:32,789:INFO:self.USI: bbdb
+2025-06-09 19:57:32,789:INFO:self._variable_keys: {'X', '_ml_usecase', 'data', 'gpu_n_jobs_param', 'html_param', 'gpu_param', 'exp_id', 'n_jobs_param', 'log_plots_param', 'USI', 'logging_param', 'idx', 'exp_name_log', 'pipeline', 'memory', 'seed', '_available_plots'}
+2025-06-09 19:57:32,789:INFO:Checking environment
+2025-06-09 19:57:32,789:INFO:python_version: 3.11.9
+2025-06-09 19:57:32,789:INFO:python_build: ('tags/v3.11.9:de54cf5', 'Apr  2 2024 10:12:12')
+2025-06-09 19:57:32,789:INFO:machine: AMD64
+2025-06-09 19:57:32,828:INFO:platform: Windows-10-10.0.26100-SP0
+2025-06-09 19:57:32,841:INFO:Memory: svmem(total=33554628608, available=14979092480, percent=55.4, used=18575536128, free=14979092480)
+2025-06-09 19:57:32,842:INFO:Physical Core: 6
+2025-06-09 19:57:32,842:INFO:Logical Core: 12
+2025-06-09 19:57:32,842:INFO:Checking libraries
+2025-06-09 19:57:32,842:INFO:System:
+2025-06-09 19:57:32,842:INFO:    python: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2025-06-09 19:57:32,842:INFO:executable: C:\Users\amonreal\Documents\amlbash\.venv\Scripts\python.exe
+2025-06-09 19:57:32,842:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-06-09 19:57:32,842:INFO:PyCaret required dependencies:

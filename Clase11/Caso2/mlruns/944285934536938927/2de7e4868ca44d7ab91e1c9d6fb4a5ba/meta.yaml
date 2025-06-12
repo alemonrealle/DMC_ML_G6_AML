@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/944285934536938927/2de7e4868ca44d7ab91e1c9d6fb4a5ba/artifacts
+end_time: 1749692904981
+entry_point_name: ''
+experiment_id: '944285934536938927'
+lifecycle_stage: active
+run_id: 2de7e4868ca44d7ab91e1c9d6fb4a5ba
+run_name: CatBoost Regressor
+run_uuid: 2de7e4868ca44d7ab91e1c9d6fb4a5ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692904632
+status: 3
+tags: []
+user_id: amonreal

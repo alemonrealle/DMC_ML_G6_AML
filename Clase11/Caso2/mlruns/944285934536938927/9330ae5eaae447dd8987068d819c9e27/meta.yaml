@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/944285934536938927/9330ae5eaae447dd8987068d819c9e27/artifacts
+end_time: 1749692896979
+entry_point_name: ''
+experiment_id: '944285934536938927'
+lifecycle_stage: active
+run_id: 9330ae5eaae447dd8987068d819c9e27
+run_name: Lasso Regression
+run_uuid: 9330ae5eaae447dd8987068d819c9e27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692896593
+status: 3
+tags: []
+user_id: amonreal

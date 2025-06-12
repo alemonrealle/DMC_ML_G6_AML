@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/486a1288afa2405caeaafad57f793848/artifacts
+deleted_time: 1749694748394
+end_time: 1749693828917
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: 486a1288afa2405caeaafad57f793848
+run_name: Linear Discriminant Analysis
+run_uuid: 486a1288afa2405caeaafad57f793848
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693828500
+status: 3
+tags: []
+user_id: amonreal

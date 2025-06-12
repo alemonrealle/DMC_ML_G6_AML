@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/5daf42d332964e12b6c523eab6d77366/artifacts
+deleted_time: 1749694748394
+end_time: 1749693830984
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: 5daf42d332964e12b6c523eab6d77366
+run_name: Quadratic Discriminant Analysis
+run_uuid: 5daf42d332964e12b6c523eab6d77366
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693830529
+status: 3
+tags: []
+user_id: amonreal

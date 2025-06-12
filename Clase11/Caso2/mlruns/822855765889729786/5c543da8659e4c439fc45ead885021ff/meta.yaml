@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/822855765889729786/5c543da8659e4c439fc45ead885021ff/artifacts
+end_time: 1749694870887
+entry_point_name: ''
+experiment_id: '822855765889729786'
+lifecycle_stage: active
+run_id: 5c543da8659e4c439fc45ead885021ff
+run_name: CatBoost Classifier
+run_uuid: 5c543da8659e4c439fc45ead885021ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749694870464
+status: 3
+tags: []
+user_id: amonreal

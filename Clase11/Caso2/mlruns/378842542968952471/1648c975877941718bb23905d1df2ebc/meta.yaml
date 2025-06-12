@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/378842542968952471/1648c975877941718bb23905d1df2ebc/artifacts
+end_time: 1749692961148
+entry_point_name: ''
+experiment_id: '378842542968952471'
+lifecycle_stage: active
+run_id: 1648c975877941718bb23905d1df2ebc
+run_name: Passive Aggressive Regressor
+run_uuid: 1648c975877941718bb23905d1df2ebc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692960754
+status: 3
+tags: []
+user_id: amonreal

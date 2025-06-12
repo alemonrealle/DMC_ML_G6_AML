@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/406790657844252826/c25c747a50ec4f319c9fbe711644aed0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '406790657844252826'
+lifecycle_stage: active
+run_id: c25c747a50ec4f319c9fbe711644aed0
+run_name: Random Forest Classifier
+run_uuid: c25c747a50ec4f319c9fbe711644aed0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690460965
+status: 1
+tags: []
+user_id: amonreal

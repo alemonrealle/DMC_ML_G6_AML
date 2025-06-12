@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/1358337c8a5944e4b44bc289ed772ee9/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 1358337c8a5944e4b44bc289ed772ee9
+run_name: Logistic Regression
+run_uuid: 1358337c8a5944e4b44bc289ed772ee9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690952721
+status: 1
+tags: []
+user_id: amonreal

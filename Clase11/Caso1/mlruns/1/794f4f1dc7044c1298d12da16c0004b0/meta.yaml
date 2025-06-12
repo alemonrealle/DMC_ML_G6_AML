@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/794f4f1dc7044c1298d12da16c0004b0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 794f4f1dc7044c1298d12da16c0004b0
+run_name: Gradient Boosting Classifier
+run_uuid: 794f4f1dc7044c1298d12da16c0004b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749691392548
+status: 1
+tags: []
+user_id: amonreal

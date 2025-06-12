@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/944285934536938927/a311cb61560a49f1803c4dcc97ec5eac/artifacts
+end_time: 1749692904400
+entry_point_name: ''
+experiment_id: '944285934536938927'
+lifecycle_stage: active
+run_id: a311cb61560a49f1803c4dcc97ec5eac
+run_name: Huber Regressor
+run_uuid: a311cb61560a49f1803c4dcc97ec5eac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692903982
+status: 3
+tags: []
+user_id: amonreal

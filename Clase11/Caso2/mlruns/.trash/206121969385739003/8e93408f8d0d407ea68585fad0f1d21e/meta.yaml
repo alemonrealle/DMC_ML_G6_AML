@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/8e93408f8d0d407ea68585fad0f1d21e/artifacts
+deleted_time: 1749694748394
+end_time: 1749693826919
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: 8e93408f8d0d407ea68585fad0f1d21e
+run_name: Random Forest Classifier
+run_uuid: 8e93408f8d0d407ea68585fad0f1d21e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693826481
+status: 3
+tags: []
+user_id: amonreal

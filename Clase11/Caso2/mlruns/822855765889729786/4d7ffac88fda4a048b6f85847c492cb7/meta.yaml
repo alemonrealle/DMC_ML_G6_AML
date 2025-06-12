@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/822855765889729786/4d7ffac88fda4a048b6f85847c492cb7/artifacts
+end_time: 1749694873235
+entry_point_name: ''
+experiment_id: '822855765889729786'
+lifecycle_stage: active
+run_id: 4d7ffac88fda4a048b6f85847c492cb7
+run_name: Random Forest Classifier
+run_uuid: 4d7ffac88fda4a048b6f85847c492cb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749694872888
+status: 3
+tags: []
+user_id: amonreal

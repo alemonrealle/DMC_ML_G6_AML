@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/7010a234650348cf89e814aac37f1810/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 7010a234650348cf89e814aac37f1810
+run_name: K Neighbors Classifier
+run_uuid: 7010a234650348cf89e814aac37f1810
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749691548556
+status: 1
+tags: []
+user_id: amonreal

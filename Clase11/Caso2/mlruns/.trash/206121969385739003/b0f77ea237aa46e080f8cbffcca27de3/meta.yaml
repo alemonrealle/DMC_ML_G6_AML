@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/b0f77ea237aa46e080f8cbffcca27de3/artifacts
+deleted_time: 1749694748394
+end_time: 1749693823761
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: b0f77ea237aa46e080f8cbffcca27de3
+run_name: Ada Boost Classifier
+run_uuid: b0f77ea237aa46e080f8cbffcca27de3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693822654
+status: 3
+tags: []
+user_id: amonreal

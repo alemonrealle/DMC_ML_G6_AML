@@ -2916,3 +2916,28 @@ AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2025-06-05 19:36:08,691:INFO:Initializing load_model()
 2025-06-05 19:36:08,691:INFO:load_model(model_name=modelo_respuesta_cliente_mlflow, platform=None, authentication=None, verbose=True)
+2025-06-05 19:38:30,740:INFO:Initializing predict_model()
+2025-06-05 19:38:30,740:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000020CD6786DD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingreso_mensual',
+                                             'usa_app', 'usa_web',
+                                             'satisfaccion', 'num_productos',
+                                             'reclamos_ult_6m',
+                                             'tasa_credito'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['genero', 'nivel_educacion',
+                                             'region'],
+                                    transformer=SimpleImputer(st...
+                 TransformerWrapper(exclude=[],
+                                    transformer=RemoveMulticollinearity(threshold=0.8))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE(random_state=123)))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', QuadraticDiscriminantAnalysis())]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020C9D3F7240>)
+2025-06-05 19:38:30,740:INFO:Checking exceptions
+2025-06-05 19:38:30,740:INFO:Preloading libraries
+2025-06-05 19:38:30,740:INFO:Set up data.
+2025-06-05 19:38:30,750:INFO:Set up index.

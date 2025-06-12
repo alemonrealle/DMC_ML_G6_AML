@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/944285934536938927/bea8da2979ad407aafa5762271634868/artifacts
+end_time: 1749692896388
+entry_point_name: ''
+experiment_id: '944285934536938927'
+lifecycle_stage: active
+run_id: bea8da2979ad407aafa5762271634868
+run_name: Bayesian Ridge
+run_uuid: bea8da2979ad407aafa5762271634868
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692895502
+status: 3
+tags: []
+user_id: amonreal

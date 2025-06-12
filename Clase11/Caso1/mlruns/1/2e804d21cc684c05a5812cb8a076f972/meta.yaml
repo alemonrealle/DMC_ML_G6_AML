@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/2e804d21cc684c05a5812cb8a076f972/artifacts
+end_time: 1749692168980
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 2e804d21cc684c05a5812cb8a076f972
+run_name: Extra Trees Classifier
+run_uuid: 2e804d21cc684c05a5812cb8a076f972
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692168667
+status: 3
+tags: []
+user_id: amonreal

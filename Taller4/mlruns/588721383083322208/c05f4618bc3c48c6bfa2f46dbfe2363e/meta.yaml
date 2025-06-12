@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/588721383083322208/c05f4618bc3c48c6bfa2f46dbfe2363e/artifacts
+end_time: 1749697042518
+entry_point_name: ''
+experiment_id: '588721383083322208'
+lifecycle_stage: active
+run_id: c05f4618bc3c48c6bfa2f46dbfe2363e
+run_name: Decision Tree Classifier
+run_uuid: c05f4618bc3c48c6bfa2f46dbfe2363e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749697042095
+status: 3
+tags: []
+user_id: amonreal

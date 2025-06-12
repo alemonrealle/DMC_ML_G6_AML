@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/944285934536938927/22206140b23d4c9f975058d748b441ef/artifacts
+end_time: 1749692900080
+entry_point_name: ''
+experiment_id: '944285934536938927'
+lifecycle_stage: active
+run_id: 22206140b23d4c9f975058d748b441ef
+run_name: Elastic Net
+run_uuid: 22206140b23d4c9f975058d748b441ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692899664
+status: 3
+tags: []
+user_id: amonreal

@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/944285934536938927
+creation_time: 1749692871252
+experiment_id: '944285934536938927'
+last_update_time: 1749692871252
+lifecycle_stage: active
+name: forecast_sales_paper

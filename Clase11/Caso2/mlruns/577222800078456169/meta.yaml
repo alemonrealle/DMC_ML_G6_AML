@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/577222800078456169
+creation_time: 1749692910345
+experiment_id: '577222800078456169'
+last_update_time: 1749692910345
+lifecycle_stage: active
+name: forecast_sales_bread

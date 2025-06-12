@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/822855765889729786/3d8233edead34255979b01b452a80d71/artifacts
+end_time: 1749694873790
+entry_point_name: ''
+experiment_id: '822855765889729786'
+lifecycle_stage: active
+run_id: 3d8233edead34255979b01b452a80d71
+run_name: Extra Trees Classifier
+run_uuid: 3d8233edead34255979b01b452a80d71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749694873427
+status: 3
+tags: []
+user_id: amonreal

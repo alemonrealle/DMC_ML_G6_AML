@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/378842542968952471/eca4e4b107fb42a588edc4f7b44837ff/artifacts
+end_time: 1749692965062
+entry_point_name: ''
+experiment_id: '378842542968952471'
+lifecycle_stage: active
+run_id: eca4e4b107fb42a588edc4f7b44837ff
+run_name: Session Initialized d986
+run_uuid: eca4e4b107fb42a588edc4f7b44837ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749692940083
+status: 3
+tags: []
+user_id: amonreal

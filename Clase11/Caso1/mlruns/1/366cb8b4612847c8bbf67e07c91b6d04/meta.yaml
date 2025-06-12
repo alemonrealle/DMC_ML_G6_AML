@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/366cb8b4612847c8bbf67e07c91b6d04/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 366cb8b4612847c8bbf67e07c91b6d04
+run_name: CatBoost Classifier
+run_uuid: 366cb8b4612847c8bbf67e07c91b6d04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749691544753
+status: 1
+tags: []
+user_id: amonreal

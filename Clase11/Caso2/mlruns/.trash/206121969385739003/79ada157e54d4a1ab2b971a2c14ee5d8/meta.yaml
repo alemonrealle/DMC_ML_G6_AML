@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/79ada157e54d4a1ab2b971a2c14ee5d8/artifacts
+deleted_time: 1749694748394
+end_time: 1749693831615
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: 79ada157e54d4a1ab2b971a2c14ee5d8
+run_name: Dummy Classifier
+run_uuid: 79ada157e54d4a1ab2b971a2c14ee5d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693831193
+status: 3
+tags: []
+user_id: amonreal

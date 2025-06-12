@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/206121969385739003/521fde97918e4a3191adfb909227bbcf/artifacts
+deleted_time: 1749694748394
+end_time: 1749693825586
+entry_point_name: ''
+experiment_id: '206121969385739003'
+lifecycle_stage: deleted
+run_id: 521fde97918e4a3191adfb909227bbcf
+run_name: Gradient Boosting Classifier
+run_uuid: 521fde97918e4a3191adfb909227bbcf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749693825167
+status: 3
+tags: []
+user_id: amonreal
